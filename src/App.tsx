@@ -6,6 +6,7 @@ import './App.css';
 
 import WebApp from '@twa-dev/sdk';
 import { TonConnectButton } from '@tonconnect/ui-react';
+import MyTonConnectUI from './components/MyTonConnectUI';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,7 +17,8 @@ function App() {
         <span>My App with React UI </span>
         <TonConnectButton />
       </header>
-
+      latest
+      <MyTonConnectUI />
       <div>
         <a href='https://ton.org/dev' target='_blank'>
           <img src={twaLogo} className='logo' alt='TWA logo' />

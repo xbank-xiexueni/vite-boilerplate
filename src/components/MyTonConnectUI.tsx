@@ -15,7 +15,7 @@ const transaction = {
   ],
 };
 
-const TonConnectUI = () => {
+const MyTonConnectUI = () => {
   const userFriendlyAddress = useTonAddress();
   const rowAddress = useTonAddress(false);
   const wallet = useTonWallet();
@@ -48,4 +48,4 @@ const TonConnectUI = () => {
   );
 };
 
-export default TonConnectUI;
+export default MyTonConnectUI;
