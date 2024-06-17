@@ -23,6 +23,8 @@ Connect with users wallets with the help of TON Connect protocol
 **Wallet 与 Dapp 在 TON 上的通信协议**
 ![ton connect](https://docs.ton.org/img/docs/ton-connect/ton-connect_1.svg?raw=true)
 
+[@tonconnect/ui-react](https://docs.ton.org/mandarin/develop/dapps/ton-connect/developers#ton-connect-ui)
+
 ### 参考
 
 > https://ton.org/en/mini-apps,

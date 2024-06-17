@@ -16,6 +16,7 @@ function App() {
         <span>My App with React UI </span>
         <TonConnectButton />
       </header>
+
       <div>
         <a href='https://ton.org/dev' target='_blank'>
           <img src={twaLogo} className='logo' alt='TWA logo' />
