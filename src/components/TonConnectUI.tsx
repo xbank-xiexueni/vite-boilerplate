@@ -36,7 +36,12 @@ const TonConnectUI = () => {
         <button onClick={open}>Open modal</button>
         <button onClick={() => close()}>Close modal</button>
       </div>
-      <button onClick={() => tonConnectUI.sendTransaction(transaction)}>
+      <button
+        onClick={() => {
+          // @ts-ignore
+          tonConnectUI.sendTransaction(transaction);
+        }}
+      >
         Send transaction
       </button>
     </>
